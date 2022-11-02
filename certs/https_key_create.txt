@@ -1,0 +1,8 @@
+-- install mkcert
+choco install mkcert
+
+
+-- Tao key.pem va cert.pem cho localhost
+mkcert -key-file key.pem -cert-file cert.pem localhost
+
+

@@ -1,0 +1,38 @@
+{
+	"name": "fas",
+	"version": "1.0.0",
+	"private": true,
+	"base": "/tuyen-dung",
+	"app_key": "KSHFHJF549",
+	"scripts": {
+		"dev": "nuxt",
+		"build": "nuxt build",
+		"start": "nuxt start",
+		"generate": "nuxt generate"
+	},
+	"dependencies": {
+		"@chenfengyuan/vue-barcode": "^1.0.1",
+		"@nuxtjs/axios": "^5.13.6",
+		"@nuxtjs/toast": "^3.3.1",
+		"core-js": "^3.15.1",
+		"element-ui": "^2.15.6",
+		"exceljs": "^4.3.0",
+		"file-saver": "^2.0.5",
+		"jexcel": "^4.6.1",
+		"maska": "^1.5.0",
+		"nuxt": "^2.15.7",
+		"nuxt-clipboard": "^0.0.7",
+		"qrcode.vue": "1.7.0",
+		"v-mask": "^2.3.0",
+		"vuetify": "^2.5.5",
+		"vuetify-confirm": "^2.0.6",
+		"xlsx": "^0.17.2",
+		"xlsx-renderer": "^2.4.4"
+	},
+	"devDependencies": {
+		"@nuxt/types": "^2.15.7",
+		"@nuxt/typescript-build": "^2.1.0",
+		"@nuxtjs/moment": "^1.6.1",
+		"@nuxtjs/vuetify": "^1.12.1"
+	}
+}
