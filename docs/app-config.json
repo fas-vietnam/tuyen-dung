@@ -1,0 +1,55 @@
+{
+	"httpAPI": {
+		"baseAPI": "http://172.25.215.30:3369/favv-app-hub",
+		"API": "http://172.25.215.30:3369/api",
+		"httlURL": "http://172.25.215.30:8089/"
+	},
+	"httpsAPI": {
+		"baseAPI": "https://172.25.215.30:3639/favv-app-hub",
+		"API": "https://172.25.215.30:3639/api",
+		"httlURL": "https://172.25.215.30:8809/"
+	},
+	"appId": "FAVV1008",
+	"secretCODE": {
+		"thuc-tich-san-xuat-line": "TUNA"
+	},
+	"keepLoginMinute": 1800000,
+	"loginRequiredPage": ["update-invoice"],
+	"events": [
+		{
+			"name": "chrismas",
+			"dates": "12/24-12/25",
+			"primaryDate": "12/25",
+			"timmer": 30000,
+			"allowedEventPages": ["index", "shiyoudata", "tinh-linh-kien-fas"]
+		},
+		{
+			"name": "valentine",
+			"dates": "02/14",
+			"primaryDate": "02/14",
+			"timmer": 30000,
+			"allowedEventPages": ["index", "shiyoudata", "tinh-linh-kien-fas"]
+		},
+		{
+			"name": "halloween",
+			"dates": "10/30-10/31",
+			"primaryDate": "10/31",
+			"timmer": 30000,
+			"allowedEventPages": ["index", "shiyoudata", "tinh-linh-kien-fas"]
+		},
+		{
+			"name": "new-year",
+			"dates": "01/01-01/03",
+			"primaryDate": "01/01",
+			"timmer": 30000,
+			"allowedEventPages": ["index", "shiyoudata", "tinh-linh-kien-fas"]
+		},
+		{
+			"name": "womenday",
+			"dates": "03/08",
+			"primaryDate": "03/08",
+			"timmer": 30000,
+			"allowedEventPages": ["index", "shiyoudata", "tinh-linh-kien-fas"]
+		}
+	]
+}
